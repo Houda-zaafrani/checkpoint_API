@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+     background-color: bisque;
+         
+
+
+}
+h1{
+font-family: 'Libre Baskerville', serif;
+/* background-color: */
+}
+/* Table{
+   border: 1px solid black;
+} */
+
+Table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+ background-color :rgb(8, 182, 182);
+
+}
+
+In this example, the tr:nth-child(even) selector targets even rows and sets their background color to #f2f2f2. The tr:nth-child(odd) selector targets odd rows and sets their background color to #ffffff.
+
+Apply the above CSS to your stylesheet, and it will alternate the background colors of the rows in your table. Even rows will have a light gray background, and odd rows will have a white background. You can adjust the colors to match your desired design.
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
